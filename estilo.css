@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Lobster'; 
+    src: url('Fonts/Lobster-Regular.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'DMSans'; 
+    src: url('Fonts/DMSans.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'OpenSans'; 
+    src: url('Fonts/OpenSans.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Oswald'; 
+    src: url('Fonts/Oswald.ttf') format('truetype')
+}
+body{
+    margin: 0;
+}
+header {
+    background-color: #5e17eb;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    height: 15em;    
+}
+.FLobster{
+    display: inline-block;
+    flex: 1;
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    font-size: 7em;
+}
+.header-content{
+    flex: 1;
+    display: inline-block;
+    text-align: left;
+}
+.header-content .FDMSans{
+    font-family: 'DMSans';
+    font-size: 2.5em;
+    margin-bottom: 1.5px;
+}
+.header-content .FOpenSans{
+    font-family: 'OpenSans';
+    font-size: 1em;
+    margin-top: 1px;
+}
+.container {
+    display: flex;
+    height: 64.6vh;
+}
+.esquerda {
+    flex-basis: 25%;
+    min-width: 25%;
+    background-color: #737373;
+    padding: 2em;
+    box-sizing: border-box;
+    color: white;
+}
+.esquerda section h2.FDMSans{
+    font-size: 2.15em;
+    margin-bottom: 1px;
+}
+.esquerda section h3.FDMSans{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 1px;
+}
+.esquerda section ul.FOpenSans{
+    margin-left: -1.2em;
+    font-family: 'OpenSans';
+    text-align: justify;
+    font-size: 1.1em;
+}
+.direita {
+    flex-grow: 1;
+    background-color: #373737;
+    text-align: center;
+    padding: 20vh;
+    box-sizing: border-box;
+    color: white;
+}
+#seccao2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#label {
+    margin-top: -0.5em;
+    font-size: 3.5em;
+    font-family: 'Oswald', sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#flexões {
+    margin: 0.7em;
+    background-color: white;
+    color: rgb(83, 83, 83);
+    border: 0.2em solid black;
+    border-radius: 1em;
+    width: 25em;
+    height: 2em;
+    font-size: 1em;    
+}
+#enviar {
+    background-color: #212020;
+    color: white;
+    border: 0.2em solid black;
+    border-radius: 1em; 
+    margin: 0.2em;
+    width: 7em;
+    height: 2em;
+    font-size: 1em;
+}
+#enviar:hover {
+    background-color: #022b47;
+}
+#mensagem {
+    margin-top: 0em;
+    font-size: 3.5em;
+    font-family: 'Oswald', sans-serif;
+}
+#voltarbuttom {
+    background-color: #212020;
+    color: white;
+    border: 0.2em solid black;
+    text-align: center;
+    border-radius: 1em; 
+    margin: 0.2em;
+    width: 7em;
+    height: 2em;
+    font-size: 1em;
+    margin-top: -3em;
+}
+#voltarbuttom:hover {
+    background-color: #022b47;
+}
